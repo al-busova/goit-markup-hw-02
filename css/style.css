@@ -1,0 +1,189 @@
+/* COMMON */
+:root {
+  --akcent-color: #2196f3;
+  --main-textcolor: #757575;
+  --main-bgcolor: #2f303a;
+}
+body {
+  color: var(--main-textcolor);
+  background-color: #ffffff;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+/* header */
+.logo {
+  color: #000000;
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+}
+.aсcentlogo {
+  color: var(--akcent-color);
+}
+.logo:hover {
+  color: var(--main-textcolor);
+}
+.logo:focus {
+  background-color: #9ebfda;
+}
+.navigation .link:hover,
+.contacts .link:hover {
+  color: #9bcbf3;
+}
+.navigation .link:focus,
+.contacts .link:focus {
+  background-color: #9ebfda;
+}
+.navigation .link {
+  color: #212121;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+}
+.contacts .link {
+  color: var(--main-textcolor);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+}
+.list {
+  list-style: none;
+  padding: 0;
+}
+.link {
+  text-decoration: none;
+}
+.navigation .current {
+  color: var(--akcent-color);
+}
+/* footer */
+.bottom-page .logo {
+  color: #ffffff;
+}
+.bottom-page .logo:hover {
+  color: var(--main-textcolor);
+}
+.bottom-page .logo:focus {
+  background-color: #9ebfda;
+}
+.bottom-page {
+  background-color: var(--main-bgcolor);
+}
+.geoloc-contacts .link {
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.list .geoloc {
+  color: #ffffff;
+}
+.geoloc-contacts .link:hover {
+  color: var(--akcent-color);
+}
+.geoloc-contacts .link:focus {
+  background-color: var(--akcent-color);
+}
+/* PAGE STUDIO */
+/* hero */
+.hero {
+  background-color: var(--main-bgcolor);
+  color: #ffffff;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-transform: uppercase;
+}
+.btn-order {
+  color: #ffffff;
+  background-color: var(--akcent-color);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  align-items: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+}
+.btn-order:hover,
+.btn-order:focus {
+  color: #3b5353;
+  background-color: #9ebfda;
+}
+/* section peculiarities  */
+.peculiarities-title {
+  color: #212121;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  text-transform: uppercase;
+}
+.peculiarities-text {
+  font-size: 14px;
+  line-height: 1.7;
+}
+/* sections work and workers */
+.title-section {
+  color: #212121;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+.workers {
+  background-color: #f5f4fa;
+}
+.worker-name {
+  color: #212121;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+.worker-position {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+/* PAGE PORTFOLIO */
+.portfolio {
+  background-color: #ffffff;
+}
+.btn-filter {
+  color: #212121;
+  background-color: #f5f4fa;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  border: 0;
+  cursor: pointer;
+}
+.btn-filter:hover,
+.btn-filter:focus {
+  color: #ffffff;
+  background-color: var(--akcent-color);
+}
+.title-project {
+  color: #212121;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.title-project:hover {
+  color: var(--akcent-color);
+}
+.filter-item {
+  font-size: 16px;
+  line-height: 1.87;
+}
