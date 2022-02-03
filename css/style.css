@@ -3,6 +3,7 @@
   --akcent-color: #2196f3;
   --main-textcolor: #757575;
   --main-bgcolor: #2f303a;
+  --main-font-size: 16px;
 }
 body {
   color: var(--main-textcolor);
@@ -21,20 +22,6 @@ body {
 .aсcentlogo {
   color: var(--akcent-color);
 }
-.logo:hover {
-  color: var(--main-textcolor);
-}
-.logo:focus {
-  background-color: #9ebfda;
-}
-.navigation .link:hover,
-.contacts .link:hover {
-  color: #9bcbf3;
-}
-.navigation .link:focus,
-.contacts .link:focus {
-  background-color: #9ebfda;
-}
 .navigation .link {
   color: #212121;
   font-weight: 500;
@@ -48,6 +35,12 @@ body {
   font-size: 14px;
   line-height: 1.143;
   letter-spacing: 0.02em;
+}
+.navigation .link:hover,
+.navigation .link:focus,
+.contacts .link:hover,
+.contacts .link:focus {
+  color: var(--akcent-color);
 }
 .list {
   list-style: none;
@@ -63,12 +56,6 @@ body {
 .bottom-page .logo {
   color: #ffffff;
 }
-.bottom-page .logo:hover {
-  color: var(--main-textcolor);
-}
-.bottom-page .logo:focus {
-  background-color: #9ebfda;
-}
 .bottom-page {
   background-color: var(--main-bgcolor);
 }
@@ -82,11 +69,9 @@ body {
 .list .geoloc {
   color: #ffffff;
 }
-.geoloc-contacts .link:hover {
-  color: var(--akcent-color);
-}
+.geoloc-contacts .link:hover,
 .geoloc-contacts .link:focus {
-  background-color: var(--akcent-color);
+  color: var(--akcent-color);
 }
 /* PAGE STUDIO */
 /* hero */
@@ -107,16 +92,16 @@ body {
   background-color: var(--akcent-color);
   font-family: inherit;
   font-weight: 700;
-  font-size: 16px;
+  font-size: var(--main-font-size);
   line-height: 1.87;
   align-items: center;
   letter-spacing: 0.06em;
   cursor: pointer;
+  border: 0;
 }
 .btn-order:hover,
 .btn-order:focus {
-  color: #3b5353;
-  background-color: #9ebfda;
+  background-color: #188ce8;
 }
 /* section peculiarities  */
 .peculiarities-title {
@@ -144,12 +129,12 @@ body {
 .worker-name {
   color: #212121;
   font-weight: 500;
-  font-size: 16px;
+  font-size: var(--main-font-size);
   line-height: 1.19;
   text-align: center;
 }
 .worker-position {
-  font-size: 16px;
+  font-size: var(--main-font-size);
   line-height: 1.19;
   text-align: center;
 }
@@ -161,7 +146,7 @@ body {
   color: #212121;
   background-color: #f5f4fa;
   font-weight: 500;
-  font-size: 16px;
+  font-size: var(--main-font-size);
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
@@ -184,6 +169,6 @@ body {
   color: var(--akcent-color);
 }
 .filter-item {
-  font-size: 16px;
+  font-size: var(--main-font-size);
   line-height: 1.87;
 }
