@@ -2,6 +2,7 @@
 :root {
   --akcent-color: #2196f3;
   --main-textcolor: #757575;
+  --add-textcolor: #212121;
   --main-bgcolor: #2f303a;
   --main-font-size: 16px;
 }
@@ -15,7 +16,6 @@ body {
 .logo {
   color: #000000;
   font-family: Raleway;
-  font-weight: 700;
   font-size: 26px;
   line-height: 1.2;
 }
@@ -23,7 +23,7 @@ body {
   color: var(--akcent-color);
 }
 .navigation .link {
-  color: #212121;
+  color: var(--add-textcolor);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.143;
@@ -105,8 +105,7 @@ body {
 }
 /* section peculiarities  */
 .peculiarities-title {
-  color: #212121;
-  font-weight: 700;
+  color: var(--add-textcolor);
   font-size: 14px;
   line-height: 1.143;
   text-transform: uppercase;
@@ -117,8 +116,7 @@ body {
 }
 /* sections work and workers */
 .title-section {
-  color: #212121;
-  font-weight: 700;
+  color: var(--add-textcolor);
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -127,7 +125,7 @@ body {
   background-color: #f5f4fa;
 }
 .worker-name {
-  color: #212121;
+  color: var(--add-textcolor);
   font-weight: 500;
   font-size: var(--main-font-size);
   line-height: 1.19;
@@ -143,8 +141,9 @@ body {
   background-color: #ffffff;
 }
 .btn-filter {
-  color: #212121;
+  color: var(--add-textcolor);
   background-color: #f5f4fa;
+  font-family: inherit;
   font-weight: 500;
   font-size: var(--main-font-size);
   line-height: 1.62;
@@ -159,8 +158,7 @@ body {
   background-color: var(--akcent-color);
 }
 .title-project {
-  color: #212121;
-  font-weight: 700;
+  color: var(--add-textcolor);
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
